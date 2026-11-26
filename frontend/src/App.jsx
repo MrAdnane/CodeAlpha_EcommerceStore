@@ -10,6 +10,7 @@ import Checkout from './pages/Checkout.jsx';
 import Orders, { OrderDetail } from './pages/Orders.jsx';
 import Wishlist from './pages/Wishlist.jsx';
 import Profile from './pages/Profile.jsx';
+import Admin from './pages/Admin.jsx';
 import { Login, Register } from './pages/Auth.jsx';
 
 export default function App() {
@@ -28,6 +29,7 @@ export default function App() {
           <Route path="/orders/:id" element={<OrderDetail />} />
           <Route path="/wishlist" element={<Wishlist />} />
           <Route path="/profile" element={<Profile />} />
+          <Route path="/admin" element={<Admin />} />
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
           <Route path="*" element={<Navigate to="/" replace />} />
