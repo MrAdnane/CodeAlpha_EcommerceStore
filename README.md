@@ -2,7 +2,11 @@
 
 **CodeAlpha_EcommerceStore** — a premium, full-stack e-commerce platform built with Node.js, Express.js, MongoDB, React and Vite. A complete rebuild from zero of the original Vera internship project, keeping the same repository name.
 
-> Live demo: **not deployed yet** — the API and frontend have been tested locally only. See [Deployment](#deployment) for how to deploy it.
+> **Live demo:** [https://vera-online-store.vercel.app](https://vera-online-store.vercel.app) — shop is live, seeded with 12 products.
+>
+> **Live API:** [https://vera-api-c6b82.containers.snapdeploy.app](https://vera-api-c6b82.containers.snapdeploy.app) — e.g. `/api/health` returns `{"status":"ok"}` and `/api/products` lists 12 products.
+>
+> Note: the free SnapDeploy container sleeps after 15 minutes idle, so the first visit after a pause takes about 60–90 seconds to wake.
 
 ## What it does
 
@@ -123,9 +127,11 @@ This starts the server with an in-memory database, seeds it, and checks health, 
 
 ## Screenshots
 
-TODO — add screenshots once the live demo is deployed. No screenshots exist yet; do not treat this section as complete.
+TODO — add screenshots of the live demo (homepage, product page, cart/checkout, admin dashboard). The shop is live at https://vera-online-store.vercel.app, but no screenshots have been added to the README yet; do not treat this section as complete.
 
 ## Deployment
+
+Deployed live (2026-11-26): frontend on Vercel at https://vera-online-store.vercel.app, backend on SnapDeploy at https://vera-api-c6b82.containers.snapdeploy.app, database on MongoDB Atlas (`vera`).
 
 Do **not** use Render — Render asks for a card even for the Free instance.
 
